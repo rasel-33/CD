@@ -6,7 +6,7 @@
 
 %%
 
-/* Regular expression for a valid variable name */
+
 [a-zA-Z_][a-zA-Z0-9_]*   { printf("Valid variable name: %s\n", yytext); }
 .                       { printf("Invalid variable name: %s\n", yytext); }
 
